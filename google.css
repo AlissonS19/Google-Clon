@@ -1,0 +1,113 @@
+
+/*BODY*/
+body{
+    margin: 0%;
+    padding: 0%;
+}
+ul{
+    list-style: none;
+}
+
+
+/*HEADER*/
+header{
+    width: 100%;
+    height: 80px;
+}
+#ul-header{
+    width: 250px;
+    float: right;
+    padding: 2px;
+    text-align: center;
+}
+#ul-header li{
+    display: inline-block;
+    padding: 5px;
+    font-size: 15px;
+}
+header img{
+    width: 25px;
+}
+header li a{
+    color: black;
+}
+
+
+
+/*MAIN*/
+main{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+#img-google{
+    width: 300px;
+}
+main section{
+    margin: 15px 0px;
+}
+#div-input{
+    border: rgb(190, 187, 187) 1px solid;
+    border-radius: 20px;
+    width: 60%;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+}
+#div-input button{
+    background: none;
+    border: none;
+}
+#div-input button:hover{
+    color: blue;
+}
+input{
+    border: none;
+    width: 80%;
+    height: 23px;
+    margin: 0%;
+}
+#botones-bajo-input button{
+    padding: 5px;
+    background-color: #f8f9fa;
+    border: #f8f9fa solid 1px;
+    border-radius: 3px;
+    color: #3c4043;
+    cursor: pointer;
+}
+#botones-bajo-input button a{
+    text-decoration: none;
+}
+#botones-bajo-input button:hover{
+    background-color: rgb(200, 229, 241);
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+}
+/*FOOTER*/
+footer{
+    background-color: #dadce0;
+    padding: 10px;
+    font-size: 17px;
+    color: #70757a;
+    width: 100%;
+    position: fixed;
+    bottom: 0%;
+}
+#divperu{
+    padding: 15px 0px 2px 20px;
+}
+.ul-footer, .ul-footer li{
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 2px 2px;
+}
+footer li a{
+    color: #70757a;
+    text-decoration: none;
+}
+#ul-footer-1{
+    float: left;
+}
+#ul-footer-2{
+    float: right;
+    padding-right: 20px;
+}
